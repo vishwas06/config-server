@@ -12,3 +12,7 @@ microservice:
     endpoints:
       fetchUserById:
         uri: http://USER-SERVICE/users/
+
+logging:
+  file:
+    name: F:/logs/centralized_log.logs
